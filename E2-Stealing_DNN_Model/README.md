@@ -3,7 +3,8 @@
 This experiment utilizes the Pynq-Z2 development board, which is equipped with the Zynq-7000 series SoC chip.
 
 ## FPGA
-Download the zip from [google cloud](https://drive.google.com/file/d/10pgclZzNZy3sO5UtLQ9nrSq0HTtcFdWd/view?usp=sharing)
+Download the zip from [google cloud](https://drive.google.com/file/d/10pgclZzNZy3sO5UtLQ9nrSq0HTtcFdWd/view?usp=sharing), and put it under the path ./FPGA.
+
 In the directory `./FPGA`, there is a complete project archive for the FPGA part of this experiment. Execute the following commands to unzip the project in the current directory and open this Vivado project:
 
 ```shell
