@@ -1,7 +1,7 @@
 # MUXLeak
 
 This repository contains the experiments of evaluation and case studies discussed in the paper :
-* "MUXLeak: Exploiting Multiplexers as A Power Side Channel against Multi-tenant FPGAs".
+* "MUXLeak: Exploiting Multiplexers as A Power Side Channel against Multi-tenant FPGAs" (TCAD 2025).
   
 
 MUXLeak is a novel on-chip sensor that exploits Multiplexer (MUX) to craft a stealthy power side channel. We mount different power side channel attacks via MUXLeak successfully.
@@ -39,3 +39,15 @@ This repository contains the following materials:
 * `E1-Extracting_AES_Keys`: This project contains a complete hardware design (including MUXLeak and AES) along with software code for data interaction with an FPGA via serial communication.
 * `E2-Stealing_DNN_Model`: This project includes a complete hardware design (featuring MUXLeak and neural network operators), software code for sampling the output of MUXLeak during network inference, and code for analyzing sampled data to infer the network model structure.
 * `E3-Building_Covert_Channels`: This project features a hardware design that incorporates MUXLeak, along with code for sending and receiving data through covert channels, as well as code for calculating the bit error rate.
+
+## How should I cite this work?
+
+Please use the following BibTeX entry:
+
+```latex
+@inproceedings{Zhang2025MUXLeak,
+  year={2025},
+  title={MUXLeak: Exploiting Multiplexers as A Power Side Channel against Multi-tenant FPGAs},
+  booktitle={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  author={Xin Zhang, Jiajun Zou, Zhi Zhang, Qingni Shen, Yansong Gao, Jinhua Cui, Yusi Feng, Zhonghai Wu, Derek Abbott}
+}
